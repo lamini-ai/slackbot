@@ -1,0 +1,12 @@
+{
+    "api_endpoint": "https://api.lamini.ai",
+    "SLACK_BOT_TOKEN": "xoxb-<INSERT TOKEN>",
+    "SLACK_APP_TOKEN": "xapp-<INSERT TOKEN>",
+    "channel_token_mappings": {
+        "<INSERT CHANNEL ID>": {
+            "_channel_name": "<INSERT NAME>",
+            "token": "<INSERT TOKEN>",
+            "model_names": ["<INSERT MODEL NAME>"]
+        }
+    }
+}
