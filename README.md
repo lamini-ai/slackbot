@@ -6,6 +6,7 @@
 * Under "Event Subscriptions", enable Events and subscribe to the following bot events: `app_mention`, `reaction_added`, `reaction_removed`
 * (optional) If you want the count slash command to work, add `/count-reactions` under "Slash Commands"
 * Go to `Basic Information`, install your app and add an App-Level token with all Scopes
+* Add the bot to your channel using `/add` in Slack
 
 # To run the bot
 * Clone and cd into this repository
