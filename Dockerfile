@@ -10,7 +10,6 @@ RUN --mount=type=cache,target=/root/.cache/pip \
 
 # Copy all files to the container
 COPY . /app/${PACKAGE_NAME}
-COPY configure_llama.yaml /root/.powerml/configure_llama.yaml
 WORKDIR /app/${PACKAGE_NAME}
 
 RUN chmod a+x /app/${PACKAGE_NAME}/scripts/start.sh

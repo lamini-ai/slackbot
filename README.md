@@ -9,6 +9,7 @@
 
 # To run the bot
 * Clone and cd into this repository
-* Update `config.json` and `configure_llama.raml` with your Lamini and Slack information (set up above)
+* Update `config.json` with your Lamini and Slack information (set up above)
+    * To get the channel id, go to the channel in Slack and copy the last part of the channel link
 * `docker build --tag 'slack_bot' .`
 * `docker run -d 'slack_bot'`
