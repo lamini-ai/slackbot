@@ -9,3 +9,4 @@ slack-sdk==3.21.3
 urllib3==1.26.18
 aiohttp
 lamini
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
