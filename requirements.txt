@@ -6,6 +6,6 @@ idna==3.4
 requests==2.31.0
 slack-bolt==1.18.0
 slack-sdk==3.21.3
-urllib3==1.26.18
+urllib3==1.26.19
 aiohttp
 lamini
