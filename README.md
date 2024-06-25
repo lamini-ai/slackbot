@@ -1,4 +1,4 @@
-This repo has been deprecated, please refer to https://github.com/lamini-ai/lamini-sdk
+# This repo has been deprecated, please refer to https://github.com/lamini-ai/lamini-sdk
 
 # To create your own bot
 * Go to https://api.slack.com/apps?new_app=1
